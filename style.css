@@ -1,0 +1,198 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ background-color: #F9E9DA; 
+  font-family: "Times New Roman", serif;
+  
+}
+
+h1{
+  color: #5E3B25;
+  text-align:center;
+}
+
+/* Styling Home Page */
+#name{
+  text-align:center;
+  font-size: 50px;
+  padding: 7px;
+  font-family: cursive;
+}
+
+#page1 {
+  text-align:center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background-color: #DAB692;
+  
+}
+
+#msn {
+  text-align:center;
+  background-color: #DAB692;
+  font-size:25px;
+  padding-bottom: 20px;
+  padding-top:16px;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+/*styling Fact Generator*/
+
+#fact{
+text-align:center;
+padding:2rem;
+}
+
+
+
+button {
+  background-color: #BCC199;
+  color: #113119;
+  border: 2px solid;
+  border-color:#113119;
+  padding: 15px;
+  width: 120px;
+  outline: none;
+  margin: auto;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size:16px;
+  font-family:"Times New Roman", serif;
+  
+}
+
+#quote{
+  text-align:center;
+  font-size:large;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+/* STYLE NAV BAR */
+
+.nav{
+  padding:1.5rem 2rem;
+  display:flex;
+  justify-content:flex-end;
+  background-color: #A8B087;
+  align-items:center;
+  height:70px;
+  font-size: 25px;
+ 
+}
+.nav-item{
+  list-style:none;
+  margin-right:2rem;
+  padding-left:10px;
+}
+
+.nav-item a{
+  text-decoration:none;
+  color:#113119;
+  transition:all 200ms ease-in;
+  font-family:cursive;
+  font-weight: bold;
+}
+
+.nav-item a:hover{
+  color: #5E3B25;
+}
+.nav-item:first-child{
+  margin-right: auto;
+  margin-left: 2rem;
+}
+
+#logo{
+  height:115px;
+}
+
+/*Style Endangered Page */
+
+/* Headings*/
+.page2 {
+  text-align: center;
+  padding: 10px;
+  background-color:#BCC199;
+ }
+
+/* Images and Text*/
+
+.row {
+  display: flex;
+  background-color: #BCC199;
+  flex-direction:row;
+  flex-wrap: nowrap;
+}
+
+.column {
+  padding: 5px;
+  margin:auto;
+
+}
+@media screen and (max-width: 969px){
+  .row{
+    flex-wrap:wrap;
+  }
+}
+
+/*Text*/
+
+.row1{
+width:300px;
+text-align:center;
+padding-top:10px;
+margin-bottom: 10px;
+}
+
+
+/* Style Poaching Page */
+
+.page3{
+  text-align:center;
+  margin-top: 5px;
+}
+
+.page3text{
+  text-align:center;
+  margin: 10px 27%;
+  line-height: 1.35;
+
+}
+#Image{
+  display:block;
+  display: flex;
+  flex-direction:row;
+  flex-wrap: nowrap;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  border-style: solid;
+  border-width:10px;
+  border-color:#A8B087
+}
+
+/* Style Take Action Page*/
+.act{
+  width:304px;
+  text-align:center;
+  padding-top:10px;
+  padding-bottom:10px;
+  margin-bottom: 10px;
+  background-color: #D3CDAE;
+  border-style: solid;
+  border-width:5px;
+  border-color:#A8B087;
+  
+}
+.backImg{
+  border-style: solid;
+  border-width:7px;
+  border-color:#A8B087; 
+}
